@@ -2,6 +2,7 @@ package config;
 
 import main.Parrot;
 import main.Person;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -24,10 +25,10 @@ public class ProjectConfig {
     }
 
     @Bean
-    public Person person(Parrot parrot1){ // spring does not inject the bean from context just by reading the parameter name unless you add -parameter in you maven build plugin in pom.xml
+    public Person person(@Qualifier("parrot1") Parrot parrot){
         Person p = new Person();
         p.setName("Harvey");
-        p.setParrot(parrot1);
+        p.setParrot(parrot);
         return p;
     }
 }
