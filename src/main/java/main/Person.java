@@ -3,12 +3,10 @@ package main;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component
 public class Person {
     private String name = "Harvey";
 
     private Parrot parrot;
-
 
     public String getName(){
         return this.name;
@@ -22,8 +20,6 @@ public class Person {
         return parrot;
     }
 
-    // not recommended
-    @Autowired
     public void setParrot(Parrot parrot) {
         this.parrot = parrot;
     }

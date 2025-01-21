@@ -4,13 +4,8 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 
-@Component
 public class Parrot {
-    private String name = "Litt";
-
-    public Parrot(){
-        System.out.println("Parrot Created");
-    }
+    private String name;
 
     public String getName(){
         return this.name;

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41c4cb8b-7bf8-4dc3-acb0-77708b7c7852" name="Changes" comment="spring context: autowiring v1:fields">
+    <list default="true" id="41c4cb8b-7bf8-4dc3-acb0-77708b7c7852" name="Changes" comment="spring context: autowiring v1:setter">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/ProjectConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Parrot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Parrot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +180,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737461001157</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="spring context: autowiring v1:constructor">
+      <option name="closed" value="true" />
+      <created>1737461090557</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1737461090557</updated>
+    </task>
+    <task id="LOCAL-00016" summary="spring context: autowiring v1:setter">
+      <option name="closed" value="true" />
+      <created>1737461534526</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1737461534526</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,6 +214,8 @@
     <MESSAGE value="spring context: wiring v2" />
     <MESSAGE value="spring context: wiring v3:DI" />
     <MESSAGE value="spring context: autowiring v1:fields" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring context: autowiring v1:fields" />
+    <MESSAGE value="spring context: autowiring v1:constructor" />
+    <MESSAGE value="spring context: autowiring v1:setter" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring context: autowiring v1:setter" />
   </component>
 </project>
