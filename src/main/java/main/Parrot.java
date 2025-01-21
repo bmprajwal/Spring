@@ -4,9 +4,9 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 
-
+@Component
 public class Parrot {
-    private String name;
+    private String name = "Litt";
 
     public Parrot(){
         System.out.println("Parrot Created");

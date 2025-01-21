@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41c4cb8b-7bf8-4dc3-acb0-77708b7c7852" name="Changes" comment="spring context: wiring v2">
+    <list default="true" id="41c4cb8b-7bf8-4dc3-acb0-77708b7c7852" name="Changes" comment="spring context: wiring v3:DI">
       <change beforePath="$PROJECT_DIR$/src/main/java/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/ProjectConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Parrot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Parrot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737447199170</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="spring context: wiring v3:DI">
+      <option name="closed" value="true" />
+      <created>1737447627292</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1737447627292</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -177,6 +188,7 @@
     <MESSAGE value="spring context: registerBean v2" />
     <MESSAGE value="spring context: wiring v1" />
     <MESSAGE value="spring context: wiring v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring context: wiring v2" />
+    <MESSAGE value="spring context: wiring v3:DI" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring context: wiring v3:DI" />
   </component>
 </project>
