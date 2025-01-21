@@ -7,7 +7,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
 @Configuration
-@ComponentScan (basePackages = "main")
 public class ProjectConfig {
 
 }

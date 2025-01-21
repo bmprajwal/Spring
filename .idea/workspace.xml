@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41c4cb8b-7bf8-4dc3-acb0-77708b7c7852" name="Changes" comment="spring context: Bean Annotation v3:sameTypeMultipleBeans">
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/ProjectConfig.java" afterDir="false" />
+    <list default="true" id="41c4cb8b-7bf8-4dc3-acb0-77708b7c7852" name="Changes" comment="spring context: StereotypeAnnotation v2:PostConstruct">
       <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +105,31 @@
       <option name="project" value="LOCAL" />
       <updated>1737445137482</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="spring context: Bean Annotation v4:PrimaryBean">
+      <option name="closed" value="true" />
+      <created>1737445234298</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737445234298</updated>
+    </task>
+    <task id="LOCAL-00007" summary="spring context: StereotypeAnnotation v1:Component">
+      <option name="closed" value="true" />
+      <created>1737445343538</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737445343538</updated>
+    </task>
+    <task id="LOCAL-00008" summary="spring context: StereotypeAnnotation v2:PostConstruct">
+      <option name="closed" value="true" />
+      <created>1737445425748</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1737445425748</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -115,6 +138,9 @@
     <MESSAGE value="spring context: Bean Annotation v1" />
     <MESSAGE value="spring context: Bean Annotation v2:diffTypes" />
     <MESSAGE value="spring context: Bean Annotation v3:sameTypeMultipleBeans" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring context: Bean Annotation v3:sameTypeMultipleBeans" />
+    <MESSAGE value="spring context: Bean Annotation v4:PrimaryBean" />
+    <MESSAGE value="spring context: StereotypeAnnotation v1:Component" />
+    <MESSAGE value="spring context: StereotypeAnnotation v2:PostConstruct" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring context: StereotypeAnnotation v2:PostConstruct" />
   </component>
 </project>
