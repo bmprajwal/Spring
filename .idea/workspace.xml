@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41c4cb8b-7bf8-4dc3-acb0-77708b7c7852" name="Changes" comment="spring context: added Parrot class">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="41c4cb8b-7bf8-4dc3-acb0-77708b7c7852" name="Changes" comment="spring context: Bean Annotation v3:sameTypeMultipleBeans">
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/ProjectConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,12 +82,39 @@
       <option name="project" value="LOCAL" />
       <updated>1737443849977</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="spring context: Bean Annotation v1">
+      <option name="closed" value="true" />
+      <created>1737444932089</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737444932089</updated>
+    </task>
+    <task id="LOCAL-00004" summary="spring context: Bean Annotation v2:diffTypes">
+      <option name="closed" value="true" />
+      <created>1737445038036</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737445038036</updated>
+    </task>
+    <task id="LOCAL-00005" summary="spring context: Bean Annotation v3:sameTypeMultipleBeans">
+      <option name="closed" value="true" />
+      <created>1737445137482</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737445137482</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spring context init" />
     <MESSAGE value="spring context: added Parrot class" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring context: added Parrot class" />
+    <MESSAGE value="spring context: Bean Annotation v1" />
+    <MESSAGE value="spring context: Bean Annotation v2:diffTypes" />
+    <MESSAGE value="spring context: Bean Annotation v3:sameTypeMultipleBeans" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring context: Bean Annotation v3:sameTypeMultipleBeans" />
   </component>
 </project>
