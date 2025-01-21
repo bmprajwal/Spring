@@ -11,9 +11,14 @@ public class Main {
         Parrot x = new Parrot();
         x.setName("Kiki");
 
-        Supplier<Parrot> parrotSupplier = () -> x;
-        context.registerBean("parrot1", Parrot.class, parrotSupplier);
+        Parrot y = new Parrot();
+        y.setName("Miki");
 
+        Supplier<Parrot> parrotSupplier1 = () -> x;
+        context.registerBean("parrot1", Parrot.class, parrotSupplier1);
+
+        Supplier<Parrot> parrotSupplier2 = () -> y;
+        context.registerBean("parrot2", Parrot.class, parrotSupplier2, bd -> bd.setPrimary(true));
 
         Parrot p = context.getBean(Parrot.class);
         System.out.println(p);
